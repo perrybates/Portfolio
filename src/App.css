@@ -16,7 +16,7 @@ nav a.nav-link {
 }
 
 nav ul li {
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .navbar-nav > li > a {
@@ -31,10 +31,6 @@ nav ul li {
 }
 .navbar-toggler  {
   color: var(--primary-white) !important;
-}
-
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.187rem solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
