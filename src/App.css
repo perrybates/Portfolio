@@ -3,6 +3,8 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
   --primary-dark:rgba(255,255,255,0)
 }
 
@@ -16,7 +18,7 @@ nav a.nav-link {
 }
 
 nav ul li {
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 .navbar-nav > li > a {
@@ -27,7 +29,7 @@ nav ul li {
 }
 
 .navbar-brand {
-  color: var(--primary-white) !important;
+  color: var(--primary-orange) !important;
 }
 .navbar-toggler  {
   color: var(--primary-white) !important;
@@ -36,3 +38,53 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 0.187rem solid var(--primary-orange);
 } 
+
+.header-wrapper
+{
+  position: relative;
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+
+}
+
+.main-info
+{
+  display: flex;
+  
+ 
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  text-align: center; 
+  padding-top: 20px;
+}
+
+.main-info h1 
+{
+  color: var(--primary-white);
+}
+
+.typed-text 
+{
+  font-size: 2rem;
+  color:var(--primary-white);
+  padding-top: 4rem;
+  
+}
+
+.btn-main-offer
+{
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0; 
+  padding: 10px 12px 12px 12px;
+  color: var(--primary-white);
+  margin-top: 12rem;
+}
+.btn-main-offer:hover {
+  color:var(--primary-white)
+}
